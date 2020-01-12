@@ -1,0 +1,55 @@
+*{
+    font-family: 'Lato', sans-serif;
+
+}
+.Voucher-Row-Con{
+    padding: 20px
+}
+.Voucher-Col-Item{
+    background: green;
+}
+.Voucher-Box-Item{
+    border-radius: 20px;
+}
+.Voucher-Item-Left{
+    background: orange;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.Voucher-Icon{
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.Voucher-Item-Right{
+    background: black;
+    color: white;
+    padding: 20px
+}
+.Voucher-codeName{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+
+}
+.Voucher-code{
+    font-weight: 500;
+    padding: 5px;
+
+}
+.Voucher-Claim-Btn{
+    background: orange;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+
+}
+.Voucher-Claim-Btn:hover{
+    background: black;
+    background: red;
+}

@@ -1,0 +1,72 @@
+.Cart-Col-Title{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px;
+}
+.Cart-Container-Col{
+    text-align: center;
+}
+.Cart-Total-Price{
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.Cart-Row-Total{
+    padding: 20px 0 20px 0;
+    border-top: 1px dashed black;
+    
+}
+.Cart-Total-Text{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.Cart-txt{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+.Cart-txt-Next-Step{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid black
+}
+.Cart-txt-1{
+    font-size: 18px
+}
+.Cart-txt-2{
+    padding: 0 0 10px 0;
+}
+.Cart-txt-total{
+    text-align: right ;
+}
+.Cart-Btn-Checkout{
+    width: 100%;
+    text-align: center;
+    background: gray;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.Cart-Btn-Checkout:hover{
+    background: black;
+}
+.Cart-Btn-Checkout:focus{
+    background: green;
+}
+.Cart-Btn-Cancel-Cart{
+    background: none;
+    outline: none;
+    border: none;
+}
+*:focus {
+    outline: 0 !important;
+}
+.Cart-Btn-Cancel-Cart:hover{
+    color: red;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}

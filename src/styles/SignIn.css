@@ -1,0 +1,65 @@
+.SignIn-Row{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.SignIn-Card-Body{
+    margin: 0;
+    padding: 0;
+}
+.SignIn-Input{
+    width: 200px;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+
+}
+.SignIn-Input::placeholder{
+    color: gray;
+}
+.SignIn-Form{
+    /* background: green; */
+    margin: auto;
+}
+.SignIn-Title-Txt{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+.SignIn-Input:focus{
+    width: 300px;
+    transition: 500ms;
+    
+}
+.SignIn-Icon{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    height: 100%;
+    background: none;
+    border: 2px dashed white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.SignIn-Header-Txt{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+}
+.Register-Warning{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}

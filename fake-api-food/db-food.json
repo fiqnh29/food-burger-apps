@@ -1,0 +1,401 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "role": "admin",
+      "picture": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+      "voucher": [],
+      "cart": [],
+      "checkout": []
+    },
+    {
+      "id": 2,
+      "username": "lian",
+      "email": "lian@gmail.com",
+      "password": "asd",
+      "role": "user",
+      "picture": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+      "voucher": [
+        {
+          "id": 3,
+          "codeName": "Discount Rp. 10RB",
+          "code": "DISCOUNT10RB",
+          "codeImg": "https://lh3.googleusercontent.com/MWzt910gt0VlBZQdSnzAY0ZQA3uwVApJA7f-eeB1vONpSddXOTnP66ZHphwZjPL94gpm2cW6F1shr4YFMOJp3I2uCDCZlO3VwyspzZ9w0n5QytsM8HNSb3EVj7k-XwlORpfzHUzh3CdHTs9szVkLYQB_4g7i56etdclhvUE8KtYFAznv7OaP3YSkOEWL5G0_BcOHSZrLsj7DssFK3QYeHwmHvQ2bxKCdTkztYBNocvDKPldxP_Xk9VC-T6UqPRGtTy29hMS4CWSV0nYTS6g6yv1ywqOm95w-7Y_VVZYX0mOUpg_CTBkzsQT3pSRo-63fGuF6vq9o4Q4ZfCEq6sHxfFjL2WXSBzhxZmjhzHo1cJYcTcV0tqOjM6qN8f0UEuJaPcX9c_3ELlrZTqrbHP0HW9KmanFSog4EfrvNu8p1CgNQEb1AoYx_3aapIudAcBtuCNxJuFa0JXGzwavkrmTPM3e35pMyoqwii80OajgC2MHyaiACbNY4dnfEWPLg5dIQHoZOnvhYh2-97wx6-BY2OD16X6aJ9ZIuoNQHBxEDDwSyCU1Rbslq7X2eWuUWXsBZQ5H-pcGHDzU3h47sN05To0JH05gZxHH1YU9unzs07eRdPhvvPOyoygChoXgDgkJvXPAyAbwcy4-XtU6xHcOlXITK5Y8xCG2JDa6CmA3RawcLyL2bnK5n=w1825-h883-no"
+        }
+      ],
+      "cart": [
+        {
+          "id": 30,
+          "menuType": "salad",
+          "menuName": "Grilled Veggie Salad",
+          "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/2048-hot-slaad.png",
+          "detail": "pesto sauce, zucchini, aubergine, fresh mozzarella, carrot, bell pepper, cherry tomatoes",
+          "quantity": 5,
+          "price": 10000,
+          "total": 50000
+        },
+        {
+          "id": 32,
+          "menuType": "salad",
+          "menuName": "Mushroom Soup",
+          "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/2057-mushroom-soup.png",
+          "detail": "",
+          "quantity": 1,
+          "price": 10000,
+          "total": 10000
+        },
+        {
+          "id": 20,
+          "menuType": "pizzas",
+          "menuName": "Quattro Stagioni",
+          "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1520-quattro-stagioni.png",
+          "detail": "salami, mozzarella cheese, mushrooms, tomato, black & green olives",
+          "quantity": 3,
+          "price": 10000,
+          "total": 30000
+        },
+        {
+          "id": 25,
+          "menuType": "pizzas",
+          "menuName": "Veggie",
+          "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1545-veggiepizza.png",
+          "detail": "dried tomatoes, mushrooms, broccoli, bell pepper, olives",
+          "quantity": 3,
+          "price": 10000,
+          "total": 30000
+        }
+      ],
+      "checkout": []
+    },
+    {
+      "username": "andy29",
+      "email": "andy29@mail.com",
+      "password": "Andy@123",
+      "role": "user",
+      "picture": "http://bit.ly/36HNwnQ",
+      "voucher": [],
+      "cart": [],
+      "checkout": [],
+      "id": 3
+    }
+  ],
+  "Voucher": [
+    {
+      "id": 1,
+      "codeName": "Free Shipping",
+      "code": "FREESHIPPING",
+      "totalCode": 5,
+      "codeUse": 0,
+      "codeImg": "http://bit.ly/2RbfAJI"
+    },
+    {
+      "id": 2,
+      "codeName": "Discount 50%",
+      "code": "DISCOUNT50",
+      "totalCode": 5,
+      "codeUse": 0,
+      "codeImg": "http://bit.ly/2TdA8ns"
+    },
+    {
+      "id": 3,
+      "codeName": "Discount Rp. 10RB",
+      "code": "DISCOUNT10RB",
+      "totalCode": 5,
+      "codeUse": 0,
+      "codeImg": "http://bit.ly/36HNwnQ"
+    }
+  ],
+  "Menu": [
+    {
+      "id": 1,
+      "menuType": "burgers",
+      "menuName": "Classic",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/935-classic-burger.png",
+      "detail": "beef patty, tomato, lettuce, pickles, onion, cocktail sauce",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 2,
+      "menuType": "burgers",
+      "menuName": "Classic Cheese",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/941-classic-cheese.png",
+      "detail": "beef patty, cheddar cheese, tomato, lettuce, pickles, onion, cocktail sauce",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 3,
+      "menuType": "burgers",
+      "menuName": "Classic Double",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/947-double-classic.png",
+      "detail": "double beef, tomato, lettuce, pickles, onion, cocktail sauce",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 4,
+      "menuType": "burgers",
+      "menuName": "Classic Double Cheese",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/953-classic-double-cheese.png",
+      "detail": "double beef, double cheese, lettuce, pickles, tomato, onion, cocktail sauce",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 5,
+      "menuType": "burgers",
+      "menuName": "Italian Style",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/959-italian-style.png",
+      "detail": "beef patty, fresh mozzarella, onion, italian salami, tomato",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 6,
+      "menuType": "burgers",
+      "menuName": "Mozzarella Soft",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/965-mozzarella-soft.png",
+      "detail": " beef patty, fresh mozzarella, tomato, balsamic",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 7,
+      "menuType": "burgers",
+      "menuName": "Blue Cheese",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/971-blue-cheese.png",
+      "detail": "beef patty, blue cheese, french sauce, rucola",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 8,
+      "menuType": "burgers",
+      "menuName": "Bacon & Cheddar Cheese",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/977-bacon-and-cheddar-cheese.png",
+      "detail": "beef patty, bacon, cheddar cheese, tomato, lettuce, onions",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 9,
+      "menuType": "burgers",
+      "menuName": "Swiss Cheese",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/983-swiss-cheese.png",
+      "detail": "beef patty, swiss cheese, grilled mushrooms, onion, tomato, lettuce",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 10,
+      "menuType": "burgers",
+      "menuName": "Grilled Chicken",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/989-grilled.png",
+      "detail": "grilled chicken breast, cheddar cheese, tomato, white oregano",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 11,
+      "menuType": "burgers",
+      "menuName": "Pepper Cheese",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/994-pepper----cheese.png",
+      "detail": "beef patty, cheddar cheese, tomato, onion, pickles, black & red pepper",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 12,
+      "menuType": "burgers",
+      "menuName": "Veggie",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1000-veggie.png",
+      "detail": "fresh grilled vegetables, broccoli, tomato, lettuce, onion, fresh cucumber",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 13,
+      "menuType": "burgers",
+      "menuName": "Mignon Steak",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1005-midnon-steak.png",
+      "detail": "mignon steak, build yours",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 14,
+      "menuType": "burgers",
+      "menuName": "BBQ Grilled Chicken",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1010-bbq-grilled-chicken.png",
+      "detail": "grilled chicken breast, rucola and barbecue sauce",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 15,
+      "menuType": "burgers",
+      "menuName": "Pepper Steak",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1015-pepper-steak.png",
+      "detail": "cognac and pepper sauce, grilled bell pepper, tomato, onion, cheddar cheese",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 16,
+      "menuType": "burgers",
+      "menuName": "Tuscan Style",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1020-tuscan----style.png",
+      "detail": " tomato, rucola, figs, prosciutto",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 17,
+      "menuType": "burgers",
+      "menuName": "French Cheese",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1026-french-cheese.png",
+      "detail": "brie cheese, rucola, dried tomatoes, caramelised onion",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 18,
+      "menuType": "pizzas",
+      "menuName": "Black Angus",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1510-black-angus.png",
+      "detail": "mignon steak,rucola, bell pepper, cherry tomatoes, green and black olives, mozzarella",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 19,
+      "menuType": "pizzas",
+      "menuName": "Margherita",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1515-margarita.png",
+      "detail": "mozzarella & parmigiano cheese, tomato, basil",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 20,
+      "menuType": "pizzas",
+      "menuName": "Quattro Stagioni",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1520-quattro-stagioni.png",
+      "detail": "salami, mozzarella cheese, mushrooms, tomato, black & green olives",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 21,
+      "menuType": "pizzas",
+      "menuName": "Bianca",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1525-bianca.png",
+      "detail": "mozzarella, ricotta, parmigiano cheese, rosemary leaves, cherry tomatoes",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 22,
+      "menuType": "pizzas",
+      "menuName": "Quattro Formaggi",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1530-quattro-formaggi.png",
+      "detail": "mozzarella, ricotta, gorgonzola & parmigiano cheese, fresh herbs",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 23,
+      "menuType": "pizzas",
+      "menuName": "Capricciosa",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1535-capricciosa.png",
+      "detail": "ham, mozzarella, mushrooms, black & green olives",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 24,
+      "menuType": "pizzas",
+      "menuName": "Pepperoni",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1540-peperoni.png",
+      "detail": "italian salami, mozzarella",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 25,
+      "menuType": "pizzas",
+      "menuName": "Veggie",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1545-veggiepizza.png",
+      "detail": "dried tomatoes, mushrooms, broccoli, bell pepper, olives",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 26,
+      "menuType": "salad",
+      "menuName": "Black Angus",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/2028-black-anhgussalad.png",
+      "detail": "mignon steak, rucola, lettuce, cherry tomatoes",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 27,
+      "menuType": "salad",
+      "menuName": "Fresh Garden",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/2033-fresh-garden.png",
+      "detail": "cucumber, cherry tomatoes, carrots, broccoli, cajo nuts",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 28,
+      "menuType": "salad",
+      "menuName": "Greek Salad",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/2038-greek-salad.png",
+      "detail": "feta cheese, black olives, cucumber, tomato, bell pepper, lettuce",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 29,
+      "menuType": "salad",
+      "menuName": "Caesar Salad",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/2043-caesar-salad.png",
+      "detail": "chicken breast, parmigiano, croutons, tomato, lettuce",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 30,
+      "menuType": "salad",
+      "menuName": "Grilled Veggie Salad",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/2048-hot-slaad.png",
+      "detail": "pesto sauce, zucchini, aubergine, fresh mozzarella, carrot, bell pepper, cherry tomatoes",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 31,
+      "menuType": "salad",
+      "menuName": "Broccoli Soup",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/2054-broccoli-soup.png",
+      "detail": "",
+      "price": 10000,
+      "booked": []
+    },
+    {
+      "id": 32,
+      "menuType": "salad",
+      "menuName": "Mushroom Soup",
+      "image": "https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/2057-mushroom-soup.png",
+      "detail": "",
+      "price": 10000,
+      "booked": []
+    }
+  ]
+}
