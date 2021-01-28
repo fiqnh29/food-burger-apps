@@ -162,7 +162,7 @@ class MenuDetail extends Component {
                     Swal.fire({
                         position: 'center',
                         icon: 'success',
-                        title: `${menuName} Was succesfully added to your cart`,
+                        title: `${menuName} Was succesfully added to your cart bosku`,
                         showConfirmButton: false,
                         timer: 1500
                     })
